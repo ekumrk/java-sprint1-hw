@@ -1,3 +1,3 @@
 class MonthData {
-    int days[] = new int[30];
+    int monthData[] = new int[30];
 }
