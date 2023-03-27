@@ -4,6 +4,7 @@ class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         StepTracker stepTracker = new StepTracker(scanner);
+        MonthData monthData = new MonthData();
 
         while (true) {
             printMenu();
@@ -13,7 +14,7 @@ class Main {
             } else if (i == 2) {
                 stepTracker.changeStepGoal();
             } else if (i == 3) {
-                System.out.println("Выводится команда 3");
+                stepTracker.printStatistics();
             } else if (i == 0) {
                 System.out.println("Выход.");
                 break;
