@@ -5,7 +5,7 @@ class StepTracker {
     MonthData[] monthToData = new MonthData[12];
     int goalByStepsPerDay = 10000;
     Converter converter = new Converter();
-    MonthData monthData = new MonthData();
+    //Привет, Вадим. Приятно познакомиться! Лишнее поле убрал. Благодарю за ревью!
 
     StepTracker(Scanner scan) {
         scanner = scan;
